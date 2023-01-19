@@ -1,0 +1,191 @@
+#key1 {
+    background: linear-gradient(#FF0000, #9B0000);
+    margin-top: 0;
+    margin-bottom: 0;    
+}
+
+#key1:active {
+    background: linear-gradient(#D70000, #6E0000);
+}
+
+#key2 {
+    background: linear-gradient(#FF7F00, #9B4E00);
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+#key2:active {
+    background: linear-gradient(#D76B00, #7D3F00);
+}
+
+#key3 {
+    background: linear-gradient(#EEEE00, #C0C000);
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#key3:active {
+    background: linear-gradient(#D7D700, #B2B200);
+}
+
+#key4 {
+    background: linear-gradient(#00EE00, #009B00);
+    margin-top: 4.5%;
+    margin-bottom: 4.5%;
+}
+
+#key4:active {
+    background: linear-gradient(#00D700, #007D00);
+}
+
+#key5 {
+    background: linear-gradient(#3399ff, #246AB0);
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#key5:active {
+    background: linear-gradient(#2E89E4, #1E5892);
+}
+
+#key6 {
+    background: linear-gradient(#0000FF, #000095);
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+}
+
+#key6:active {
+    background: linear-gradient(#0000D7, #000073);
+}
+
+#key7 {
+    background: linear-gradient(#6B00B2, #3F0069);
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+
+#key7:active {
+    background: linear-gradient(#4D0080, #26003F);
+}
+
+
+#key8 {
+    background: linear-gradient(#B300FF, #7300A5);
+    margin-top: 10.5%;
+    margin-bottom: 10.5%;
+}
+
+#key8:active {
+    background: linear-gradient(#9D00E1, #58007D);
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+#recIcon {
+    cursor: pointer;
+    font-size:57px;
+    margin: 10px;
+    color: red;
+}
+
+#recIcon:hover{
+    color: #bb0000;
+}
+
+#plyIcon {
+    cursor: pointer;
+    font-size:57px;
+    margin: 20px;
+    color: #009B00;
+}
+
+#plyIcon:hover{
+    color: #007D00;
+}
+
+#saveIcon {
+    cursor: pointer;
+    font-size:48px;
+    margin: 10px;
+    color: #5856ff;
+}
+
+#saveIcon:hover{
+    color: #3f3bb1;
+}
+
+/*------------------------------------------------------------------------------------------*/
+#defaultCanvas0 {
+    background-color: #0000D7;
+}
+
+/*------------------------------------------------------------------------------------------*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100px;
+    background: #FFF8DCFF;
+    flex-wrap: wrap;
+}
+
+.main {
+    border-radius: 20px;
+    width: 1000px;
+    padding: 20px 20px 20px 20px;
+    /*margin-top: 30px;*/
+}
+
+.main header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.bar {
+    box-sizing: border-box;
+    width: 100%;
+    box-shadow: 5px 0 20px darkgray;
+    cursor: pointer;
+    position: relative;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    transition: box-shadow .20s;
+}
+
+.bar:hover {
+    box-shadow: 5px 0 20px grey;
+}
+
+.xyl-bars {
+    height: 60vh;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.topSrw {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFF8DCFF;
+}
+
+.btmSrw {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 10%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFF8DCFF;
+}
+
