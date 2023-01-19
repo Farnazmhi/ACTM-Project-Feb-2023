@@ -84,21 +84,7 @@ function recAudio() {
 }
 
 function plyAudio() {
-    // if (flag === 0) {
         soundFile.play();
-    //
-    //     if (soundFile.isPlaying) {
-    //         ply.classList.replace("fa-play", "fa-pause");
-    //         // soundFile.onended(ply.classList.replace("fa-pause", "fa-play"));
-    //     }
-    //     flag++;
-    // } else if (flag === 1) {
-    //     soundFile.pause();
-    //     if (soundFile.isPaused) {
-    //         ply.classList.replace("fa-pause", "fa-play");
-    //     }
-    //     flag = 0;
-    // }
 }
 
 function saveAudio() {
